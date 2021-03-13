@@ -11,13 +11,13 @@ https://vitejs.dev/guide/#scaffolding-your-first-vite-project
 # 创建项目
 ```markdown
 # npm 6.x
-npm init @vitejs/app my-vue-app --template vue
+npm init @vitejs/app my-vite-vue-app --template vue
 
 # npm 7+, extra double-dash is needed:
-npm init @vitejs/app my-vue-app -- --template vue
+npm init @vitejs/app my-vite-vue-app -- --template vue
 
 # yarn
-yarn create @vitejs/app my-vue-app --template vue
+yarn create @vitejs/app my-vite-vue-app --template vue
 
 # 启动
 cd my-vite-vue-app
