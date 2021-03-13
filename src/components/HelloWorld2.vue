@@ -11,7 +11,7 @@
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
-  {{ count2 }} - {{ nowTimeData }}
+  {{ state2.count2 }} - {{ count2 }} - {{ nowTimeData }}
   <button @click="getTimeHandle">点我,得到当前时间</button>
 </template>
 
@@ -42,6 +42,7 @@ export default {
       state,
       nowTimeData,
       getTimeHandle,
+      state2,
       ...toRefs(state2)
     }
   }
